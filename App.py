@@ -19,11 +19,11 @@ class App(tk.Tk):
 
         mostrar_frame(self, Conversor)
     
-    def ruta(self, ruta):
+    def ruta(self, ruta):# Necesario para crear el ejecutable (.exe)
         try:
-            rutabase = sys.__MEIPASS
+            rutabase = sys._MEIPASS
         except Exception:
-            rutabase = os.path.abspth(".")
+            rutabase = os.path.abspath(".")
         return os.path.join(rutabase, ruta)
 
 
