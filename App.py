@@ -1,5 +1,3 @@
-import os
-import sys
 import tkinter as tk
 from Conversor import Conversor
 from Operaciones import mostrar_frame
