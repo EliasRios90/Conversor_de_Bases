@@ -9,8 +9,7 @@ class App(tk.Tk):
 
         self.geometry('400x550+400+20')
         self.resizable(0, 0)
-        ruta = self.ruta('image/beta_icono.ico')
-        self.iconbitmap(ruta)
+        self.iconbitmap('image/beta_icono.ico')
 
         self.grid_rowconfigure(0, weight=1)
         self.grid_columnconfigure(0, weight=1)
