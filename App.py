@@ -18,13 +18,6 @@ class App(tk.Tk):
         self.grid_columnconfigure(0, weight=1)
 
         mostrar_frame(self, Conversor)
-    
-    def ruta(self, ruta):# Necesario para crear el ejecutable (.exe)
-        try:
-            rutabase = sys._MEIPASS
-        except Exception:
-            rutabase = os.path.abspath(".")
-        return os.path.join(rutabase, ruta)
 
 
 if __name__=='__main__':
